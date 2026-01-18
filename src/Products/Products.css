@@ -1,0 +1,8 @@
+.products {
+  background-color: white;
+}
+
+/* Section spacing */
+.products.section {
+  padding: 6rem 0;
+}
