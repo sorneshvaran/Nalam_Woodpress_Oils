@@ -22,7 +22,7 @@ function Card(){
         {
             id: 3,
             name: "Groundnut Oil",
-            image: "/src/Card/Groundnut_Oil_1L.png",
+            image: "/src/Card/Nalam_Groundnut_Oil_5L.png",
             quantity: "3L",
             price: "₹750",
             category: "cooking"
@@ -30,7 +30,7 @@ function Card(){
         {
             id: 4,
             name: "Groundnut Oil",
-            image: "/src/Card/Groundnut_Oil_1L.png",
+            image: "/src/Card/Nalam_Groundnut_Oil_3L.png",
             quantity: "5L",
             price: "₹1200",
             category: "cooking"
@@ -85,20 +85,12 @@ function Card(){
         },
         {
             id: 11,
-            name: "Coconut Oil",
-            image: "/src/Card/Coconut_Oil_500ml.png",
-            quantity: "1L",
-            price: "₹440",
+            name: "Nalam Jaggery",
+            image: "/src/Card/Nalam_Jaggery_Powder.png",
+            quantity: "500g",
+            price: "₹50",
             category: "cooking"
         },
-        {
-            id: 12,
-            name: "Coconut Oil",
-            image: "/src/Card/Coconut_Oil_500ml.png",
-            quantity: "1L",
-            price: "₹440",
-            category: "cooking"
-        }
     ];
 
     return(
