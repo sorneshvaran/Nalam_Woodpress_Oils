@@ -1,5 +1,5 @@
 import './About.css';
-import woodpressMachineImage from './Woodpress_Machine.png';
+import woodpressMachineImage from './assets/Woodpress_Machine.png';
 
 function About() {
   return (
