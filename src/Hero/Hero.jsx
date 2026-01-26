@@ -1,4 +1,5 @@
 import './Hero.css';
+import Groundnut_Oil_1L from '../assets/Groundnut_Oil_1L.png';
 
 function Hero() {
   return (
@@ -30,7 +31,7 @@ function Hero() {
           </div>
           <div className="hero-image fade-in-up delay-2">
             <div className="oil-bottle-display">
-              <img src="/src/Card/Groundnut_Oil_1L.png" alt="Premium Wood Press Oil" />
+              <img src={Groundnut_Oil_1L} alt="Premium Wood Press Oil" />
               <div className="image-overlay"></div>
             </div>
           </div>
