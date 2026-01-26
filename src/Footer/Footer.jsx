@@ -1,4 +1,5 @@
 import './Footer.css';
+import Logo from '../Header/Nalam_Logo.png';
 
 function Footer(){
     return(
@@ -7,7 +8,7 @@ function Footer(){
           <div className="footer-content">
             <div className="footer-column fade-in-up">
               <div className="footer-logo">
-                <img src="/Nalam_Logo.png" alt="Nalam Woodpress Oils Logo" />
+                <img src={Logo} alt="Nalam Woodpress Oils Logo" />
                 <h3>Nalam Woodpress Oils</h3>
               </div>
               <p>Premium cold-pressed wood oils made with traditional methods and modern quality standards.</p>
