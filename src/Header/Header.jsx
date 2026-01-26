@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Header.css';
+import Logo from './Nalam_Logo.png';
 
 function Header(){
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,7 +28,7 @@ function Header(){
         <div className="container-nav">
             <div className="nav-brand">
                 <div className="logo-container">
-                    <img src="/Nalam_Logo.png" alt="Nalam Woodpress Oils Logo" className="logo" />
+                    <img src={Logo} alt="Nalam Woodpress Oils Logo" className="logo" />
                 </div>
                 <div className="brand-info">
                     <h1>Nalam Woodpress Oils</h1>
