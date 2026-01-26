@@ -6,7 +6,7 @@ function Card(){
         {
             id: 1,
             name: "Groundnut Oil",
-            image: "./Groundnut_Oil_1L.png",
+            image: "src/Card/Groundnut_Oil_1L.png",
             quantity: "½L",
             price: "₹125",
             category: "cooking"
